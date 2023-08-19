@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Section from '../Section.js';
+import Resume from '../CV.js';
 
 function CV() {
   return (
     <>
-      <Section />
+      <Resume />
     </>
   );
 }

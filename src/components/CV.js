@@ -1,17 +1,15 @@
 import React from 'react';
 import '../App.css';
-import './Aboutme.css';
+import './CV.css';
 
 
-function Aboutme() {
+function Resume() {
   return (
     <div className='about-container'>
       <p>I'm 24 years old and living in London, UK.</p>
       <p>Data Analyst at a startup trading analytics fintech.</p>
-      <p>Previously a Tax Analyst at Deloitte.</p>
-      <p>Graduated with a Masters of Chemistry (4 years) at the University of Oxford.</p>
     </div>
   );
 }
 
-export default Aboutme;
+export default Resume;
