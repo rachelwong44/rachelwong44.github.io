@@ -25,6 +25,18 @@ function Section() {
         >
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button>
+
+      <div class="social-links">
+        <a class="link" href="https://www.linkedin.com/in/rachel-wong-15b3bb14a" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="link" href="https://github.com/rachelwong44" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="link" href="mailto:rachelwong4444@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+        </div>
       </div>
     </div>
   );
