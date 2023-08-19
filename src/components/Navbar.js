@@ -42,6 +42,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link to='/about-me' className='nav-links' onClick={closeMobileMenu}>
+                About Me
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link
                 to='/portfolio'
                 className='nav-links'
@@ -70,7 +75,9 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CONTACT ME</Button>}
+          <a href='mailto:rachelwong4444@gmail.com' className='btn-mobile'>    
+          {button && <Button buttonStyle='btn--outline'>CONTACT ME <i className='fa-regular fa-envelope' /></Button>}
+          </a>
         </div>
       </nav>
     </>

@@ -2,41 +2,45 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Section.css';
+import { Link } from 'react-router-dom';
+
 
 function Section() {
   return (
     <div className='section-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>SECTION</h1>
-      <p>Text Here?</p>
+      <h1>WELCOME</h1>
+      <p>
+        Looking to make a career change into software development.
+      </p>
+      <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
+      
       <div className='section-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          GITHUB <i class="fa-brands fa-github"></i>
         </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          LINKEDIN <i class="fa-brands fa-linkedin"></i>
+        </Button>
+        <Link to='/about-me'>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          ABOUT ME <i className='fa-solid fa-user' />
         </Button>
+        </Link>
 
-      <div class="social-links">
-        <a class="link" href="https://www.linkedin.com/in/rachel-wong-15b3bb14a" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a class="link" href="https://github.com/rachelwong44" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-github"></i>
-        </a>
-        <a class="link" href="mailto:rachelwong4444@gmail.com" target="_blank" rel="noopener noreferrer">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
-        </div>
       </div>
     </div>
   );
