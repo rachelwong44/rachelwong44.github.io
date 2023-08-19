@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Section from '../Section';
+import Section from '../Section.js';
 
 function Home() {
   return (
