@@ -1,18 +1,19 @@
 import React from 'react';
 import '../App.css';
-import './CV.css';
+import './CV.css'; 
+import { Document } from 'react-pdf';
+import resume from './Rachel_Wong_CV.pdf';
+
+import { pdfjs } from 'react-pdf'; pdfjs.GlobalWorkerOptions.workerSrc = './public/pdf.worker.js';
+
 
 
 function Resume() {
   return (
     <div className='section-container'> <video src='/videos/video-1.mp4' autoPlay loop muted />
         <div className='about-container'>
-            <h1>Education</h1>
-             <p>University of Oxford - Masters of Chemistry (MCHEM) 4 years</p>
-             <h1>Work</h1>
-             <p>Mosaic Smart Data - Data Analyst (1 year), London</p>
-            <p>Deloitte LLP - Tax Analyst (1 year), London</p>
-         </div>
+        <Document file={resume}></Document>
+    </div>
     </div>
 );
 }

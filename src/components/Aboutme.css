@@ -26,28 +26,24 @@ video {
     object-fit: contain;
     position: absolute;
     top: 90px;
+    text-align:center;
+    justify-content: center;
+    padding: 100px;
   }
   
   .about-container > h1 {
     color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 75px;
+    margin-top: -1px;
   }
   
   .about-container > p {
+    margin: auto;
     margin-top: 8px;
     color: #fff;
     font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .section-btns {
-    margin-top: 32px;
-  }
-  
-  .section-btns .btn {
-    margin: 6px;
   }
   
 
