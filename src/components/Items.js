@@ -17,7 +17,7 @@ function Items() {
             />
             <Work
               src='images/img-3.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='TBC'
               label='Luxury'
               path='/services'
             />
@@ -25,7 +25,7 @@ function Items() {
           <ul className='cards__items'>
             <Work
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='TBC'
               label='Mystery'
               path='/services'
             />

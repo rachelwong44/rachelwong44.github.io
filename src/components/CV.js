@@ -12,7 +12,7 @@ function Resume() {
   return (
     <div className='section-container'> <video src='/videos/video-1.mp4' autoPlay loop muted />
         <div className='about-container'>
-        <Document file={resume}></Document>
+        <h1>Please contact me</h1>
     </div>
     </div>
 );
