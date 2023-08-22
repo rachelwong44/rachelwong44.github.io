@@ -10,6 +10,7 @@ function Home() {
       <Section />
       <Items />
 
+
     </>
   );
 }

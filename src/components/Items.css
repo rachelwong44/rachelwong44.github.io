@@ -1,50 +1,47 @@
-.cards {
+.pieces {
     padding: 4rem;
-    background: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
   }
   
   h1 {
     text-align: center;
   }
   
-  .cards__container {
+  .pieces__container {
     display: flex;
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
-  .cards__wrapper {
+  .pieces__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 75px 0 45px;
   }
   
-  .cards__items {
+  .pieces__items {
     margin-bottom: 24px;
   }
   
-  .cards__item {
+  .pieces__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 0 2rem;
     border-radius: 10px;
   }
   
-  .cards__item__link {
+  .pieces__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    border-radius: 10px;
+    border-radius: 1px;
     overflow: hidden;
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .pieces__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -56,7 +53,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .pieces__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -70,7 +67,7 @@
     box-sizing: border-box;
   }
   
-  .cards__item__img {
+  .pieces__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -85,15 +82,15 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .pieces_item__img:hover {
     transform: scale(1.1);
   }
   
-  .cards__item__info {
+  .pieces__item__info {
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .pieces__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
@@ -106,13 +103,13 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .pieces__items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .pieces__item {
       margin-bottom: 2rem;
     }
   }

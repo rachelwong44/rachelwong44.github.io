@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Section() {
   return (
     <div className='section-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <video src='/videos/video1.mp4' autoPlay loop muted />
       <h1>WELCOME</h1>
       <p>
         Looking to make a career change into software development.

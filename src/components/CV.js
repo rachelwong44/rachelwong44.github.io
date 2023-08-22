@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './CV.css'; 
-import { Document } from 'react-pdf';
-import resume from './Rachel_Wong_CV.pdf';
 
 import { pdfjs } from 'react-pdf'; pdfjs.GlobalWorkerOptions.workerSrc = './public/pdf.worker.js';
 

@@ -4,11 +4,11 @@ import Work from './Work';
 
 function Items() {
   return (
-    <div className='cards'>
+    <div className='pieces'>
       <h1>Check out what I've created so far!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='pieces__container'>
+        <div className='pieces__wrapper'>
+          <ul className='pieces__items'>
             <Work
               src='images/img-3.jpg'
               text='JavaScript, React, CSS/HTML'
@@ -22,7 +22,7 @@ function Items() {
               path='/'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='pieces__items'>
             <Work
               src='images/img-3.jpg'
               text='TBC'

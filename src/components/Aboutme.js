@@ -6,7 +6,7 @@ import './Aboutme.css';
 function Aboutme() {
   return (
 
-<div className='section-container'><video src='/videos/video-1.mp4' autoPlay loop muted />
+<div className='section-container'><video src='/videos/video1.mp4' autoPlay loop muted />
     <div className='about-container'>
       <p>I'm 24 years old and living in London, UK.<br />
       Data Analyst at a startup trading analytics fintech.<br />
