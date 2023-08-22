@@ -20,7 +20,7 @@ video {
   .section-container > h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -100px;
+    margin-bottom: 0px;
   }
   
   .section-container > p {
@@ -39,9 +39,6 @@ video {
     margin: 6px;
   }
   
-  .fa-play-circle {
-    margin-left: 4px;
-  }
 
   .fa-brands fa-linkedin{
     margin-left: 4px;

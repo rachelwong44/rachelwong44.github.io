@@ -9,12 +9,9 @@ function Section() {
   return (
     <div className='section-container'>
       <video src='/videos/video1.mp4' autoPlay loop muted />
-      <h1>WELCOME</h1>
-      <p>
-        Looking to make a career change into software development.
-      </p>
+      <p>Looking to make a career change into software development.</p>
       <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
-      
+      <h1>RACHEL WONG</h1>
       <div className='section-btns'>
         <Button
           className='btns'

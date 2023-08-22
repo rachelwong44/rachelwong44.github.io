@@ -52,7 +52,7 @@ function Navigationbar() {
                 About Me
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item-portfolio'>
               <div className='nav-links' onClick={handleClickScroll}>Portfolio</div>
             </li>
             <li>
