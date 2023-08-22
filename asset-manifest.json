@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd22f7a8.css",
-    "main.js": "/static/js/main.0027ab5b.js",
-    "static/media/Rachel_Wong_CV.pdf": "/static/media/Rachel_Wong_CV.56954fc5d5848cd40fdd.pdf",
+    "main.css": "/static/css/main.0e506824.css",
+    "main.js": "/static/js/main.c7c438a9.js",
     "index.html": "/index.html",
-    "main.fd22f7a8.css.map": "/static/css/main.fd22f7a8.css.map",
-    "main.0027ab5b.js.map": "/static/js/main.0027ab5b.js.map"
+    "main.0e506824.css.map": "/static/css/main.0e506824.css.map",
+    "main.c7c438a9.js.map": "/static/js/main.c7c438a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd22f7a8.css",
-    "static/js/main.0027ab5b.js"
+    "static/css/main.0e506824.css",
+    "static/js/main.c7c438a9.js"
   ]
 }
