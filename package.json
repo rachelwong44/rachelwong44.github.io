@@ -1,7 +1,7 @@
 {
   "name": "react-website-yt-1",
   "version": "0.1.0",
-  "homepage": "https://rachelwong44.github.io/portfolio-website",
+  "homepage": "https://rachelwong44.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
