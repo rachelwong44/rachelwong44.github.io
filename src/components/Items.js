@@ -18,7 +18,7 @@ function Items() {
             <Work
               src='images/img-3.jpg'
               text='TBC'
-              label='Luxury'
+              label='Weather App'
               path='/'
             />
           </ul>
@@ -26,19 +26,19 @@ function Items() {
             <Work
               src='images/img-3.jpg'
               text='TBC'
-              label='Mystery'
+              label='TBC'
               path='/'
             />
             <Work
               src='images/img-3.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              text='Text text text text text text text text'
+              label='TBC'
               path='/'
             />
             <Work
               src='images/img-3.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              text='Text text text text text text text text'
+              label='TBC'
               path='/'
             />
           </ul>
