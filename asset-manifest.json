@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd22f7a8.css",
+    "main.js": "/static/js/main.b6e6b450.js",
+    "static/media/Rachel_Wong_CV.pdf": "/static/media/Rachel_Wong_CV.56954fc5d5848cd40fdd.pdf",
+    "index.html": "/index.html",
+    "main.fd22f7a8.css.map": "/static/css/main.fd22f7a8.css.map",
+    "main.b6e6b450.js.map": "/static/js/main.b6e6b450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd22f7a8.css",
+    "static/js/main.b6e6b450.js"
+  ]
+}
