@@ -12,14 +12,14 @@ function Items() {
             <Work
               src='images/img-3.jpg'
               text='JavaScript, React, CSS/HTML'
-              label='Website'
+              label='My Website'
               path='/'
             />
             <Work
               src='images/img-3.jpg'
               text='TBC'
               label='Luxury'
-              path='/services'
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Items() {
               src='images/img-3.jpg'
               text='TBC'
               label='Mystery'
-              path='/services'
+              path='/'
             />
             <Work
               src='images/img-3.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/'
             />
             <Work
               src='images/img-3.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/'
             />
           </ul>
         </div>
