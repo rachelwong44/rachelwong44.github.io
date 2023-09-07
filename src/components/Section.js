@@ -4,43 +4,40 @@ import { Button } from './Button';
 import './Section.css';
 import { Link } from 'react-router-dom';
 
-
 function Section() {
-  return (
-    <div className='section-container'>
-      <video src='/videos/video1.mp4' autoPlay loop muted />
-      <p>Looking to make a career change into software development.</p>
-      <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
-      <h1>RACHEL WONG</h1>
-      <div className='section-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GITHUB <i class="fa-brands fa-github"></i>
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          LINKEDIN <i class="fa-brands fa-linkedin"></i>
-        </Button>
-        <Link to='/about-me'>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          ABOUT ME <i className='fa-solid fa-user' />
-        </Button>
-        </Link>
+    // Create a helper function to render buttons, which helps avoid code repetition
+    const renderButton = (text, iconClass, link = null, onClick = null) => {
+        const buttonContent = (
+            <Button
+                className='btns'
+                buttonStyle='btn--outline'
+                buttonSize='btn--large'
+                onClick={onClick}
+            >
+                {text} <i className={iconClass}></i>
+            </Button>
+        );
 
-      </div>
-    </div>
-  );
+        if (link) {
+            return <Link to={link}>{buttonContent}</Link>
+        }
+
+        return buttonContent;
+    };
+
+    return (
+        <div className='section-container'>
+            <video src='/videos/video1.mp4' autoPlay loop muted />
+            <h1>RACHEL WONG</h1>
+            <p>Looking to make a career change into software development.</p>
+            <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
+            <div className='section-btns'>
+                {renderButton('GITHUB', 'fa-brands fa-github')}
+                {renderButton('LINKEDIN', 'fa-brands fa-linkedin')}
+                {renderButton('ABOUT ME', 'fa-solid fa-user', '/about-me', () => console.log('hey'))}
+            </div>
+        </div>
+    );
 }
 
 export default Section;
