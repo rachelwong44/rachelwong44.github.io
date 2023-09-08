@@ -29,8 +29,11 @@ function About() {
       <div id="about">
         <div className='section-container'>
             <video src='/videos/video1.mp4' autoPlay loop muted />
-            <p>Looking to make a career change into software development.</p>
-            <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
+            <h1>EXPERIENCE</h1>
+            <p>September 2022 - Present: Data Analyst at Mosaic Smart Data, London</p>
+            <p>September 2021 - 2022: Tax Analyst at Deloitte, London</p>
+            <p>September 2017 - 2021: Masters of Chemistry (MChem) at University of Oxford</p>
+
             <div className='section-btns'>
                 {renderButton('GITHUB', 'fa-brands fa-github')}
                 {renderButton('LINKEDIN', 'fa-brands fa-linkedin')}
