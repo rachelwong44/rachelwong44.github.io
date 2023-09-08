@@ -1,21 +1,44 @@
 import React from 'react';
 import '../App.css';
-import './Aboutme.css';
+import { Button } from './Button';
+import './Section.css';
+import { Link } from 'react-router-dom';
 
+function About() {
+    // Create a helper function to render buttons, which helps avoid code repetition
+    const renderButton = (text, iconClass, link = null, onClick = null) => {
+        const buttonContent = (
+            <Button
+                className='btns'
+                buttonStyle='btn--outline'
+                buttonSize='btn--large'
+                onClick={onClick}
+            >
+                {text} <i className={iconClass}></i>
+            </Button>
+        );
 
-function Aboutme() {
-  return (
+        if (link) {
+            return <Link to={link}>{buttonContent}</Link>
+        }
 
-<div className='section-container'><video src='/videos/video1.mp4' autoPlay loop muted />
-    <div className='about-container'>
-      <p>I'm 24 years old and living in London, UK.<br />
-      Data Analyst at a startup trading analytics fintech.<br />
-      Previously a Tax Analyst at Deloitte.<br />
-      Graduated with a Masters of Chemistry (4 years) at the University of Oxford.</p>
+        return buttonContent;
+    };
 
-</div>
-    </div>
-  );
+    return (
+      <div id="about">
+        <div className='section-container'>
+            <video src='/videos/video1.mp4' autoPlay loop muted />
+            <p>Looking to make a career change into software development.</p>
+            <p>Currently a Data Analyst at Mosaic Smart Data, London.</p>
+            <div className='section-btns'>
+                {renderButton('GITHUB', 'fa-brands fa-github')}
+                {renderButton('LINKEDIN', 'fa-brands fa-linkedin')}
+                {renderButton('ABOUT ME', 'fa-solid fa-user', '/about-me', () => console.log('hey'))}
+            </div>
+        </div>
+        </div>
+    );
 }
 
-export default Aboutme;
+export default About;

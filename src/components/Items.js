@@ -4,8 +4,8 @@ import Work from './Work';
 
 function Items() {
   return (
+    <div id="portfolio">
     <div className='pieces'>
-      <h1>Check out what I've created so far!</h1>
       <div className='pieces__container'>
         <div className='pieces__wrapper'>
           <ul className='pieces__items'>
@@ -44,6 +44,7 @@ function Items() {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

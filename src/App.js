@@ -7,7 +7,9 @@ import About from './components/pages/About';
 
 
 
+
 function App() {
+
   return (
     <>
       <Router>
@@ -15,6 +17,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<About />} />
+
         </Routes>
       </Router>
     </>

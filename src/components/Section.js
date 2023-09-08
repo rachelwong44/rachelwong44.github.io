@@ -26,6 +26,8 @@ function Section() {
     };
 
     return (
+      <div id="home">
+
         <div className='section-container'>
             <video src='/videos/video1.mp4' autoPlay loop muted />
             <h1>RACHEL WONG</h1>
@@ -37,6 +39,8 @@ function Section() {
                 {renderButton('ABOUT ME', 'fa-solid fa-user', '/about-me', () => console.log('hey'))}
             </div>
         </div>
+        </div>
+
     );
 }
 
