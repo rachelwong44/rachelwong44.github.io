@@ -1,0 +1,19 @@
+.section {
+  margin: 0 auto;
+  padding: 56px 24px 56px;
+}
+
+.pills {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+

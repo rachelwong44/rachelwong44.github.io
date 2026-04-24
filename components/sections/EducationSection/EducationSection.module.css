@@ -1,0 +1,53 @@
+.section {
+  margin: 0 auto;
+  padding: 56px 24px 56px;
+}
+
+.card {
+  margin-top: 28px;
+  border-radius: 0;
+  border: 1px solid rgb(var(--surface-border));
+  background: rgb(var(--surface-bg));
+  color: rgb(var(--surface-fg));
+  padding: 20px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.cardMeta {
+  margin: 8px 0 0;
+  color: rgb(var(--surface-muted));
+  font-size: 13px;
+}
+
+.bullets {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  line-height: 1.6;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+  }
+
+  .cardMeta {
+    font-size: 14px;
+  }
+}
+

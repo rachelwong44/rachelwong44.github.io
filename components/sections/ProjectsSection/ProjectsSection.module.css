@@ -1,0 +1,57 @@
+.section {
+  margin: 0 auto;
+  padding: 56px 24px 56px;
+}
+
+.grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 14px;
+}
+
+.card {
+  border-radius: 0;
+  border: 1px solid rgb(var(--surface-border));
+  background: rgb(var(--surface-bg));
+  color: rgb(var(--surface-fg));
+  padding: 20px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.cardBody {
+  margin: 10px 0 0;
+  color: rgb(var(--surface-muted));
+  line-height: 1.7;
+}
+
+.pills {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .card {
+    padding: 24px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+  }
+}
+

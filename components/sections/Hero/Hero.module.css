@@ -1,0 +1,89 @@
+.header {
+  position: relative;
+  min-height: 100%;
+}
+
+.inner {
+  position: relative;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.content {
+  margin-top: 56px;
+  max-width: 720px;
+}
+
+.kicker {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.h1 {
+  margin: 14px 0 0;
+  font-size: 40px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.lead {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.ctas {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.primaryBtn,
+.secondaryBtn,
+.ghostBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.primaryBtn {
+  background: #fff;
+  color: #000;
+}
+
+.primaryBtn:hover {
+  opacity: 0.92;
+}
+
+.secondaryBtn {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+@media (min-width: 640px) {
+  .inner {
+    padding: 92px 24px;
+  }
+
+  .h1 {
+    font-size: 58px;
+  }
+
+  .lead {
+    font-size: 18px;
+  }
+}

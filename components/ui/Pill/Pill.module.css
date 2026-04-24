@@ -1,0 +1,13 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0;
+  border: 1px solid rgb(var(--surface-border));
+  background: rgb(var(--surface-bg));
+  color: rgb(var(--surface-fg));
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
